@@ -1,0 +1,9301 @@
+<html>
+<head>
+<title> Задание 3.Лабораторная работа 9-10 </title>
+<link rel="stylesheet"  href="css/style.css">
+<script src="filter.js"></script>
+</head>
+<body>
+<div class = "main-header">
+    <img class="logo" src = "css/img/icon.png" wigth = 50px height=50px>
+    <p>arinakrikunova.com</p></div>
+<div class="container">
+<div class="city-info">
+<table id="city-select">
+<thead>
+<th col-index=1>Индекс</th> 
+<th col-index=2>Тип региона
+<select class="table-filter" onchange="filter_rows()">
+        <option value="all">Показать все</option>
+    </select>
+</th>
+<th col-index=3>Регион
+    <select class="table-filter" onchange="filter_rows()">
+        <option value="all">Показать все</option>
+    </select>
+</th>
+<th col-index=4>Город
+    <select class="table-filter" onchange="filter_rows()">
+        <option value="all">Показать все</option>
+    </select>
+</th>
+<th col-index=5>Население</th>
+</thead> 
+<tbody class="info"> 
+<tr>
+
+
+
+
+<td class="index"><div class = "circle">420500</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Иннополис</td>
+<td class = "pop">
+963
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301414</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Чекалин</td>
+<td class = "pop">
+994
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678530</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Верхоянск</td>
+<td class = "pop">
+1311
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694530</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Курильск</td>
+<td class = "pop">
+2070
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">184640</div></td>
+<td class="tregion">Обл</td>
+<td>Мурманская</td>
+<td>Островной</td>
+<td class = "pop">
+2177
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662951</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Артемовск</td>
+<td class = "pop">
+2180
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606125</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Горбатов</td>
+<td class = "pop">
+2278
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694550</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Северо-Курильск</td>
+<td class = "pop">
+2381
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">636615</div></td>
+<td class="tregion">Обл</td>
+<td>Томская</td>
+<td>Кедровый</td>
+<td class = "pop">
+2451
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">165330</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Сольвычегодск</td>
+<td class = "pop">
+2460
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678790</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Среднеколымск</td>
+<td class = "pop">
+3525
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">164750</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Мезень</td>
+<td class = "pop">
+3599
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172530</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Белый</td>
+<td class = "pop">
+3771
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">303500</div></td>
+<td class="tregion">Обл</td>
+<td>Орловская</td>
+<td>Новосиль</td>
+<td class = "pop">
+3799
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">303370</div></td>
+<td class="tregion">Обл</td>
+<td>Орловская</td>
+<td>Малоархангельск</td>
+<td class = "pop">
+3872
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617040</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Чермоз</td>
+<td class = "pop">
+4017
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">689400</div></td>
+<td class="tregion">Ао</td>
+<td>Чукотский</td>
+<td>Певек</td>
+<td class = "pop">
+4161
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">187050</div></td>
+<td class="tregion">Обл</td>
+<td>Ленинградская</td>
+<td>Любань</td>
+<td class = "pop">
+4188
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216200</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Духовщина</td>
+<td class = "pop">
+4370
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">181600</div></td>
+<td class="tregion">Обл</td>
+<td>Псковская</td>
+<td>Гдов</td>
+<td class = "pop">
+4379
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694820</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Томари</td>
+<td class = "pop">
+4537
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162107</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Кадников</td>
+<td class = "pop">
+4797
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618601</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Чердынь</td>
+<td class = "pop">
+4920
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">668510</div></td>
+<td class="tregion">Респ</td>
+<td>Тыва</td>
+<td>Туран</td>
+<td class = "pop">
+4988
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143330</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Верея</td>
+<td class = "pop">
+5368
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">689450</div></td>
+<td class="tregion">Ао</td>
+<td>Чукотский</td>
+<td>Билибино</td>
+<td class = "pop">
+5504
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171660</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Красный Холм</td>
+<td class = "pop">
+5608
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618460</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Усолье</td>
+<td class = "pop">
+5694
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">165160</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Шенкурск</td>
+<td class = "pop">
+5702
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391030</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Спас-Клепики</td>
+<td class = "pop">
+5917
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">303240</div></td>
+<td class="tregion">Обл</td>
+<td>Орловская</td>
+<td>Дмитровск</td>
+<td class = "pop">
+5956
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412950</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Шиханы</td>
+<td class = "pop">
+6067
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663200</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Игарка</td>
+<td class = "pop">
+6183
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676470</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Циолковский</td>
+<td class = "pop">
+6208
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391550</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Шацк</td>
+<td class = "pop">
+6562
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694140</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Макаров</td>
+<td class = "pop">
+6788
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601570</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Курлово</td>
+<td class = "pop">
+6791
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397400</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Новохоперск</td>
+<td class = "pop">
+6849
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172332</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Зубцов</td>
+<td class = "pop">
+6937
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">433380</div></td>
+<td class="tregion">Обл</td>
+<td>Ульяновская</td>
+<td>Сенгилей</td>
+<td class = "pop">
+6959
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162341</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Красавино</td>
+<td class = "pop">
+7003
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442300</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Сурск</td>
+<td class = "pop">
+7032
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">431220</div></td>
+<td class="tregion">Респ</td>
+<td>Мордовия</td>
+<td>Темников</td>
+<td class = "pop">
+7247
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171720</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Весьегонск</td>
+<td class = "pop">
+7330
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216240</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Демидов</td>
+<td class = "pop">
+7333
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442600</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Спасск</td>
+<td class = "pop">
+7442
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301205</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Советск</td>
+<td class = "pop">
+7537
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618100</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Оханск</td>
+<td class = "pop">
+7597
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216290</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Велиж</td>
+<td class = "pop">
+7620
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">161100</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Кириллов</td>
+<td class = "pop">
+7735
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422610</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Лаишево</td>
+<td class = "pop">
+7735
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391050</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Спасск-Рязанский</td>
+<td class = "pop">
+7745
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678953</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Томмот</td>
+<td class = "pop">
+8054
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442310</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Городище</td>
+<td class = "pop">
+8102
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">215279</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Сычевка</td>
+<td class = "pop">
+8111
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172800</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Андреаполь</td>
+<td class = "pop">
+8265
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694030</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Анива</td>
+<td class = "pop">
+8449
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298676</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Ялта</td>
+<td class = "pop">
+8497
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">161440</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Никольск</td>
+<td class = "pop">
+8515
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442250</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Белинский</td>
+<td class = "pop">
+8567
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171360</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Старица</td>
+<td class = "pop">
+8610
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422840</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Болгар</td>
+<td class = "pop">
+8650
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">431430</div></td>
+<td class="tregion">Респ</td>
+<td>Мордовия</td>
+<td>Инсар</td>
+<td class = "pop">
+8687
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301264</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Липки</td>
+<td class = "pop">
+8741
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216450</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Починок</td>
+<td class = "pop">
+8776
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624380</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Верхотурье</td>
+<td class = "pop">
+8815
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">187450</div></td>
+<td class="tregion">Обл</td>
+<td>Ленинградская</td>
+<td>Новая Ладога</td>
+<td class = "pop">
+8890
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606860</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Ветлуга</td>
+<td class = "pop">
+8956
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">668110</div></td>
+<td class="tregion">Респ</td>
+<td>Тыва</td>
+<td>Чадан</td>
+<td class = "pop">
+9037
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">182670</div></td>
+<td class="tregion">Обл</td>
+<td>Псковская</td>
+<td>Дно</td>
+<td class = "pop">
+9061
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601110</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Костерево</td>
+<td class = "pop">
+9136
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623080</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Михайловск</td>
+<td class = "pop">
+9215
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403441</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Серафимович</td>
+<td class = "pop">
+9368
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172610</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Западная Двина</td>
+<td class = "pop">
+9376
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">431860</div></td>
+<td class="tregion">Респ</td>
+<td>Мордовия</td>
+<td>Ардатов</td>
+<td class = "pop">
+9400
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">457670</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Верхнеуральск</td>
+<td class = "pop">
+9459
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624320</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Верхняя Тура</td>
+<td class = "pop">
+9468
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162840</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Устюжна</td>
+<td class = "pop">
+9478
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">297345</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Старый Крым</td>
+<td class = "pop">
+9485
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678100</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Олекминск</td>
+<td class = "pop">
+9487
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678000</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Покровск</td>
+<td class = "pop">
+9495
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676011</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Сковородино</td>
+<td class = "pop">
+9561
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">161200</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Белозерск</td>
+<td class = "pop">
+9614
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429060</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Ядрин</td>
+<td class = "pop">
+9614
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301280</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Болохово</td>
+<td class = "pop">
+9619
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">161300</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Тотьма</td>
+<td class = "pop">
+9784
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606072</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Володарск</td>
+<td class = "pop">
+9924
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624940</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Волчанск</td>
+<td class = "pop">
+10008
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172110</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Кувшиново</td>
+<td class = "pop">
+10008
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216790</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Рудня</td>
+<td class = "pop">
+10029
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368890</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Южно-Сухокумск</td>
+<td class = "pop">
+10048
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162250</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Харовск</td>
+<td class = "pop">
+10078
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216330</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Ельня</td>
+<td class = "pop">
+10095
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">164110</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Каргополь</td>
+<td class = "pop">
+10148
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">431260</div></td>
+<td class="tregion">Респ</td>
+<td>Мордовия</td>
+<td>Краснослободск</td>
+<td class = "pop">
+10151
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678450</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Нюрба</td>
+<td class = "pop">
+10156
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429570</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Мариинский Посад</td>
+<td class = "pop">
+10186
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456007</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Миньяр</td>
+<td class = "pop">
+10195
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678200</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Вилюйск</td>
+<td class = "pop">
+10233
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429430</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Козловка</td>
+<td class = "pop">
+10355
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162900</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Вытегра</td>
+<td class = "pop">
+10490
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601291</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Суздаль</td>
+<td class = "pop">
+10535
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658480</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Змеиногорск</td>
+<td class = "pop">
+10569
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694420</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Александровск-Сахалинский</td>
+<td class = "pop">
+10613
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">632400</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Каргат</td>
+<td class = "pop">
+10620
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141650</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Высоковск</td>
+<td class = "pop">
+10642
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663960</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Заозерный</td>
+<td class = "pop">
+10683
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">215710</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Дорогобуж</td>
+<td class = "pop">
+10720
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">363410</div></td>
+<td class="tregion">Респ</td>
+<td>Северная Осетия - Алания</td>
+<td>Дигора</td>
+<td class = "pop">
+10856
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">668210</div></td>
+<td class="tregion">Респ</td>
+<td>Тыва</td>
+<td>Шагонар</td>
+<td class = "pop">
+10958
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618270</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Гремячинск</td>
+<td class = "pop">
+11005
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">427950</div></td>
+<td class="tregion">Респ</td>
+<td>Удмуртская</td>
+<td>Камбарка</td>
+<td class = "pop">
+11028
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298213</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Щелкино</td>
+<td class = "pop">
+11194
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623090</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Нижние Серги</td>
+<td class = "pop">
+11217
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">416111</div></td>
+<td class="tregion">Обл</td>
+<td>Астраханская</td>
+<td>Нариманов</td>
+<td class = "pop">
+11386
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397030</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Эртиль</td>
+<td class = "pop">
+11387
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">303140</div></td>
+<td class="tregion">Обл</td>
+<td>Орловская</td>
+<td>Болхов</td>
+<td class = "pop">
+11421
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676870</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Завитинск</td>
+<td class = "pop">
+11481
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">299703</div></td>
+<td class="tregion">Г</td>
+<td>Севастополь</td>
+<td>Инкерман</td>
+<td class = "pop">
+11526
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422370</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Тетюши</td>
+<td class = "pop">
+11596
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606120</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Ворсма</td>
+<td class = "pop">
+11622
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694740</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Невельск</td>
+<td class = "pop">
+11682
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391710</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Михайлов</td>
+<td class = "pop">
+11783
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">396790</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Богучар</td>
+<td class = "pop">
+11811
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142660</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Дрезна</td>
+<td class = "pop">
+11815
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624160</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Верхний Тагил</td>
+<td class = "pop">
+11843
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601351</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Судогда</td>
+<td class = "pop">
+11848
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694920</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Углегорск</td>
+<td class = "pop">
+11880
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">632550</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Чулым</td>
+<td class = "pop">
+11964
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">646330</div></td>
+<td class="tregion">Обл</td>
+<td>Омская</td>
+<td>Тюкалинск</td>
+<td class = "pop">
+12050
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162480</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Бабаево</td>
+<td class = "pop">
+12074
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">646100</div></td>
+<td class="tregion">Обл</td>
+<td>Омская</td>
+<td>Называевск</td>
+<td class = "pop">
+12119
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">655111</div></td>
+<td class="tregion">Респ</td>
+<td>Хакасия</td>
+<td>Сорск</td>
+<td class = "pop">
+12140
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694051</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Долинск</td>
+<td class = "pop">
+12200
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171210</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Лихославль</td>
+<td class = "pop">
+12259
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618820</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Горнозаводск</td>
+<td class = "pop">
+12334
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624400</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Новая Ляля</td>
+<td class = "pop">
+12400
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456971</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Нязепетровск</td>
+<td class = "pop">
+12452
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456120</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Юрюзань</td>
+<td class = "pop">
+12568
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678188</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Удачный</td>
+<td class = "pop">
+12611
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391200</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Кораблино</td>
+<td class = "pop">
+12657
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663920</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Уяр</td>
+<td class = "pop">
+12666
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">385200</div></td>
+<td class="tregion">Респ</td>
+<td>Адыгея</td>
+<td>Адыгейск</td>
+<td class = "pop">
+12689
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">184682</div></td>
+<td class="tregion">Обл</td>
+<td>Мурманская</td>
+<td>Снежногорск</td>
+<td class = "pop">
+12698
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412210</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Аркадак</td>
+<td class = "pop">
+12846
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172840</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Торопец</td>
+<td class = "pop">
+13018
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658420</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Горняк</td>
+<td class = "pop">
+13040
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">689000</div></td>
+<td class="tregion">Ао</td>
+<td>Чукотский</td>
+<td>Анадырь</td>
+<td class = "pop">
+13053
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601300</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Камешково</td>
+<td class = "pop">
+13113
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456140</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Карабаш</td>
+<td class = "pop">
+13151
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412780</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Хвалынск</td>
+<td class = "pop">
+13199
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403840</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Петров Вал</td>
+<td class = "pop">
+13264
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141321</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Краснозаводск</td>
+<td class = "pop">
+13432
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">668050</div></td>
+<td class="tregion">Респ</td>
+<td>Тыва</td>
+<td>Ак-Довурак</td>
+<td class = "pop">
+13469
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429900</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Цивильск</td>
+<td class = "pop">
+13478
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143100</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Руза</td>
+<td class = "pop">
+13495
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141900</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Талдом</td>
+<td class = "pop">
+13819
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171571</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Калязин</td>
+<td class = "pop">
+13870
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">641730</div></td>
+<td class="tregion">Обл</td>
+<td>Курганская</td>
+<td>Далматово</td>
+<td class = "pop">
+13913
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301530</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Белев</td>
+<td class = "pop">
+13918
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601480</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Гороховец</td>
+<td class = "pop">
+14015
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141320</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Пересвет</td>
+<td class = "pop">
+14142
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624000</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Арамиль</td>
+<td class = "pop">
+14227
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404002</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Дубовка</td>
+<td class = "pop">
+14345
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601670</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Струнино</td>
+<td class = "pop">
+14372
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">413230</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Красный Кут</td>
+<td class = "pop">
+14420
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422190</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Мамадыш</td>
+<td class = "pop">
+14432
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456020</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Сим</td>
+<td class = "pop">
+14465
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">682950</div></td>
+<td class="tregion">Край</td>
+<td>Хабаровский</td>
+<td>Вяземский</td>
+<td class = "pop">
+14556
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663491</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Кодинск</td>
+<td class = "pop">
+14835
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601640</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Карабаново</td>
+<td class = "pop">
+14868
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617140</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Очер</td>
+<td class = "pop">
+15003
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618320</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Александровск</td>
+<td class = "pop">
+15022
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347320</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Цимлянск</td>
+<td class = "pop">
+15029
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">659900</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Белокуриха</td>
+<td class = "pop">
+15072
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404030</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Николаевск</td>
+<td class = "pop">
+15081
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">184230</div></td>
+<td class="tregion">Обл</td>
+<td>Мурманская</td>
+<td>Полярные Зори</td>
+<td class = "pop">
+15106
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601140</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Петушки</td>
+<td class = "pop">
+15167
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">602101</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Меленки</td>
+<td class = "pop">
+15208
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">393670</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Жердевка</td>
+<td class = "pop">
+15211
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301320</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Венев</td>
+<td class = "pop">
+15220
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298000</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Судак</td>
+<td class = "pop">
+15368
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">632730</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Купино</td>
+<td class = "pop">
+15448
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623270</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Дегтярск</td>
+<td class = "pop">
+15521
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404620</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Ленинск</td>
+<td class = "pop">
+15527
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162000</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Грязовец</td>
+<td class = "pop">
+15528
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601240</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Лакинск</td>
+<td class = "pop">
+15707
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">152070</div></td>
+<td class="tregion">Обл</td>
+<td>Ярославская</td>
+<td>Данилов</td>
+<td class = "pop">
+15861
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404260</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Палласовка</td>
+<td class = "pop">
+15984
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404160</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Краснослободск</td>
+<td class = "pop">
+16007
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">433300</div></td>
+<td class="tregion">Обл</td>
+<td>Ульяновская</td>
+<td>Новоульяновск</td>
+<td class = "pop">
+16032
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662251</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Ужур</td>
+<td class = "pop">
+16079
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">462780</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Ясный</td>
+<td class = "pop">
+16082
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663800</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Иланский</td>
+<td class = "pop">
+16108
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171640</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Кашин</td>
+<td class = "pop">
+16174
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301470</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Плавск</td>
+<td class = "pop">
+16248
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">416340</div></td>
+<td class="tregion">Обл</td>
+<td>Астраханская</td>
+<td>Камызяк</td>
+<td class = "pop">
+16291
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143180</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Звенигород</td>
+<td class = "pop">
+16395
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412480</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Калининск</td>
+<td class = "pop">
+16442
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694240</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Поронайск</td>
+<td class = "pop">
+16461
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423700</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Мензелинск</td>
+<td class = "pop">
+16474
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301030</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Ясногорск</td>
+<td class = "pop">
+16804
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403790</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Жирновск</td>
+<td class = "pop">
+16890
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">633340</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Болотное</td>
+<td class = "pop">
+16969
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456833</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Касли</td>
+<td class = "pop">
+16998
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">413360</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Новоузенск</td>
+<td class = "pop">
+17015
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">655750</div></td>
+<td class="tregion">Респ</td>
+<td>Хакасия</td>
+<td>Абаза</td>
+<td class = "pop">
+17111
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618590</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Красновишерск</td>
+<td class = "pop">
+17129
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">433750</div></td>
+<td class="tregion">Обл</td>
+<td>Ульяновская</td>
+<td>Барыш</td>
+<td class = "pop">
+17149
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">682970</div></td>
+<td class="tregion">Край</td>
+<td>Хабаровский</td>
+<td>Бикин</td>
+<td class = "pop">
+17156
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">393360</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Кирсанов</td>
+<td class = "pop">
+17240
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">184650</div></td>
+<td class="tregion">Обл</td>
+<td>Мурманская</td>
+<td>Полярный</td>
+<td class = "pop">
+17304
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">457020</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Пласт</td>
+<td class = "pop">
+17344
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663980</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Бородино</td>
+<td class = "pop">
+17423
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143040</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Голицыно</td>
+<td class = "pop">
+17447
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456110</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Катав-Ивановск</td>
+<td class = "pop">
+17640
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397350</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Поворино</td>
+<td class = "pop">
+17692
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601120</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Покров</td>
+<td class = "pop">
+17762
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624590</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Ивдель</td>
+<td class = "pop">
+17764
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">152240</div></td>
+<td class="tregion">Обл</td>
+<td>Ярославская</td>
+<td>Гаврилов-Ям</td>
+<td class = "pop">
+17792
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403950</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Новоаннинский</td>
+<td class = "pop">
+17911
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347250</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Константиновск</td>
+<td class = "pop">
+17926
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624740</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Нижняя Салда</td>
+<td class = "pop">
+17969
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623900</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Туринск</td>
+<td class = "pop">
+17990
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172730</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Осташков</td>
+<td class = "pop">
+18073
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658837</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Яровое</td>
+<td class = "pop">
+18085
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422000</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Арск</td>
+<td class = "pop">
+18114
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">297600</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Белогорск</td>
+<td class = "pop">
+18199
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">600910</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Радужный</td>
+<td class = "pop">
+18212
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623640</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Талица</td>
+<td class = "pop">
+18339
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391110</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Рыбное</td>
+<td class = "pop">
+18378
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143360</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Апрелевка</td>
+<td class = "pop">
+18467
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">433030</div></td>
+<td class="tregion">Обл</td>
+<td>Ульяновская</td>
+<td>Инза</td>
+<td class = "pop">
+18547
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">446600</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Нефтегорск</td>
+<td class = "pop">
+18732
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663150</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Енисейск</td>
+<td class = "pop">
+18769
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">363330</div></td>
+<td class="tregion">Респ</td>
+<td>Северная Осетия - Алания</td>
+<td>Ардон</td>
+<td class = "pop">
+18774
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456940</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Куса</td>
+<td class = "pop">
+18792
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301430</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Суворов</td>
+<td class = "pop">
+18975
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617000</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Нытва</td>
+<td class = "pop">
+19041
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422230</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Агрыз</td>
+<td class = "pop">
+19299
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391160</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Новомичуринск</td>
+<td class = "pop">
+19309
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">187026</div></td>
+<td class="tregion">Обл</td>
+<td>Ленинградская</td>
+<td>Никольское</td>
+<td class = "pop">
+19345
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">633520</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Черепаново</td>
+<td class = "pop">
+19346
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601201</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Собинка</td>
+<td class = "pop">
+19482
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601800</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Юрьев-Польский</td>
+<td class = "pop">
+19588
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397700</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Бобров</td>
+<td class = "pop">
+19738
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676301</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Шимановск</td>
+<td class = "pop">
+19815
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">671840</div></td>
+<td class="tregion">Респ</td>
+<td>Бурятия</td>
+<td>Кяхта</td>
+<td class = "pop">
+20013
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397600</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Калач</td>
+<td class = "pop">
+20046
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142290</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Пущино</td>
+<td class = "pop">
+20263
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347540</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Пролетарск</td>
+<td class = "pop">
+20267
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618350</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Кизел</td>
+<td class = "pop">
+20277
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">628160</div></td>
+<td class="tregion">Ао</td>
+<td>Ханты-Мансийский Автономный округ - Югра</td>
+<td>Белоярский</td>
+<td class = "pop">
+20283
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422430</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Буинск</td>
+<td class = "pop">
+20342
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624070</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Среднеуральск</td>
+<td class = "pop">
+20357
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629850</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Тарко-Сале</td>
+<td class = "pop">
+20372
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404350</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Котельниково</td>
+<td class = "pop">
+20441
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676770</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Райчихинск</td>
+<td class = "pop">
+20499
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404410</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Суровикино</td>
+<td class = "pop">
+20527
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624021</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Сысерть</td>
+<td class = "pop">
+20594
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">461743</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Абдулино</td>
+<td class = "pop">
+20663
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">363240</div></td>
+<td class="tregion">Респ</td>
+<td>Северная Осетия - Алания</td>
+<td>Алагир</td>
+<td class = "pop">
+20949
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456900</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Бакал</td>
+<td class = "pop">
+20953
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142432</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Черноголовка</td>
+<td class = "pop">
+20986
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662060</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Боготол</td>
+<td class = "pop">
+21029
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140170</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Бронницы</td>
+<td class = "pop">
+21102
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">425350</div></td>
+<td class="tregion">Респ</td>
+<td>Марий Эл</td>
+<td>Козьмодемьянск</td>
+<td class = "pop">
+21262
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140730</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Рошаль</td>
+<td class = "pop">
+21265
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678900</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Алдан</td>
+<td class = "pop">
+21277
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">166000</div></td>
+<td class="tregion">Ао</td>
+<td>Ненецкий</td>
+<td>Нарьян-Мар</td>
+<td class = "pop">
+21296
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">431350</div></td>
+<td class="tregion">Респ</td>
+<td>Мордовия</td>
+<td>Ковылкино</td>
+<td class = "pop">
+21307
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">164840</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Онега</td>
+<td class = "pop">
+21359
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">413500</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Ершов</td>
+<td class = "pop">
+21447
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">633450</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Тогучин</td>
+<td class = "pop">
+21531
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">352680</div></td>
+<td class="tregion">Край</td>
+<td>Краснодарский</td>
+<td>Хадыженск</td>
+<td class = "pop">
+21580
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624220</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Нижняя Тура</td>
+<td class = "pop">
+21596
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141370</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Хотьково</td>
+<td class = "pop">
+21612
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391960</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Ряжск</td>
+<td class = "pop">
+21676
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142620</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Куровское</td>
+<td class = "pop">
+21821
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142450</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Старая Купавна</td>
+<td class = "pop">
+21859
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624140</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Кировград</td>
+<td class = "pop">
+21959
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423650</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Менделеевск</td>
+<td class = "pop">
+22075
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423930</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Бавлы</td>
+<td class = "pop">
+22109
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">647000</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Дудинка</td>
+<td class = "pop">
+22207
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">164200</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Няндома</td>
+<td class = "pop">
+22354
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346310</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Зверево</td>
+<td class = "pop">
+22416
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618120</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Оса</td>
+<td class = "pop">
+22420
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">296012</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Армянск</td>
+<td class = "pop">
+22468
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442317</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Никольск</td>
+<td class = "pop">
+22471
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357340</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Лермонтов</td>
+<td class = "pop">
+22540
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141150</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Лосино-Петровский</td>
+<td class = "pop">
+22550
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442150</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Нижний Ломов</td>
+<td class = "pop">
+22678
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617119</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Верещагино</td>
+<td class = "pop">
+22760
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">682460</div></td>
+<td class="tregion">Край</td>
+<td>Хабаровский</td>
+<td>Николаевск-на-Амуре</td>
+<td class = "pop">
+22773
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172520</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Нелидово</td>
+<td class = "pop">
+22886
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143070</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Кубинка</td>
+<td class = "pop">
+22918
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694490</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Оха</td>
+<td class = "pop">
+23007
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629830</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Губкинский</td>
+<td class = "pop">
+23340
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143600</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Волоколамск</td>
+<td class = "pop">
+23386
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">296500</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Саки</td>
+<td class = "pop">
+23400
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171070</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Бологое</td>
+<td class = "pop">
+23499
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456040</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Усть-Катав</td>
+<td class = "pop">
+23586
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">671700</div></td>
+<td class="tregion">Респ</td>
+<td>Бурятия</td>
+<td>Северобайкальск</td>
+<td class = "pop">
+23673
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692880</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Фокино</td>
+<td class = "pop">
+23683
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">187330</div></td>
+<td class="tregion">Обл</td>
+<td>Ленинградская</td>
+<td>Отрадное</td>
+<td class = "pop">
+23874
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346630</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Семикаракорск</td>
+<td class = "pop">
+23884
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">165150</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Вельск</td>
+<td class = "pop">
+23885
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">646900</div></td>
+<td class="tregion">Обл</td>
+<td>Омская</td>
+<td>Калачинск</td>
+<td class = "pop">
+24000
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403801</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Котово</td>
+<td class = "pop">
+24104
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">636460</div></td>
+<td class="tregion">Обл</td>
+<td>Томская</td>
+<td>Колпашево</td>
+<td class = "pop">
+24126
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412800</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Красноармейск</td>
+<td class = "pop">
+24362
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357400</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Железноводск</td>
+<td class = "pop">
+24496
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171980</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Бежецк</td>
+<td class = "pop">
+24517
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140600</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Зарайск</td>
+<td class = "pop">
+24648
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678141</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Ленск</td>
+<td class = "pop">
+24955
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624330</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Красноуральск</td>
+<td class = "pop">
+24973
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676151</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Зея</td>
+<td class = "pop">
+25042
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">396420</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Павловск</td>
+<td class = "pop">
+25126
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624191</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Невьянск</td>
+<td class = "pop">
+25147
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">607600</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Богородск</td>
+<td class = "pop">
+25497
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301260</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Киреевск</td>
+<td class = "pop">
+25585
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">636840</div></td>
+<td class="tregion">Обл</td>
+<td>Томская</td>
+<td>Асино</td>
+<td class = "pop">
+25614
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412420</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Аткарск</td>
+<td class = "pop">
+25620
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">627139</div></td>
+<td class="tregion">Обл</td>
+<td>Тюменская</td>
+<td>Заводоуковск</td>
+<td class = "pop">
+25657
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140560</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Озеры</td>
+<td class = "pop">
+25788
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">646020</div></td>
+<td class="tregion">Обл</td>
+<td>Омская</td>
+<td>Исилькуль</td>
+<td class = "pop">
+25905
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">396900</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Семилуки</td>
+<td class = "pop">
+26025
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356630</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Ипатово</td>
+<td class = "pop">
+26055
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">632120</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Татарск</td>
+<td class = "pop">
+26114
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">462240</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Кувандык</td>
+<td class = "pop">
+26176
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141290</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Красноармейск</td>
+<td class = "pop">
+26294
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">461504</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Соль-Илецк</td>
+<td class = "pop">
+26308
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298400</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Бахчисарай</td>
+<td class = "pop">
+26363
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">628240</div></td>
+<td class="tregion">Ао</td>
+<td>Ханты-Мансийский Автономный округ - Югра</td>
+<td>Советский</td>
+<td class = "pop">
+26434
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357300</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Новопавловск</td>
+<td class = "pop">
+26556
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">646530</div></td>
+<td class="tregion">Обл</td>
+<td>Омская</td>
+<td>Тара</td>
+<td class = "pop">
+26664
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356000</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Новоалександровск</td>
+<td class = "pop">
+26759
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624250</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Заречный</td>
+<td class = "pop">
+26803
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">393460</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Уварово</td>
+<td class = "pop">
+26829
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347740</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Зерноград</td>
+<td class = "pop">
+26850
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624860</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Камышлов</td>
+<td class = "pop">
+26875
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404500</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Калач-на-Дону</td>
+<td class = "pop">
+26892
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629400</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Лабытнанги</td>
+<td class = "pop">
+26948
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397500</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Бутурлиновка</td>
+<td class = "pop">
+27208
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">445240</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Октябрьск</td>
+<td class = "pop">
+27244
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">462271</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Медногорск</td>
+<td class = "pop">
+27253
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618250</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Губаха</td>
+<td class = "pop">
+27544
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692130</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Дальнереченск</td>
+<td class = "pop">
+27601
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347210</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Морозовск</td>
+<td class = "pop">
+27644
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356880</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Нефтекумск</td>
+<td class = "pop">
+27700
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">682800</div></td>
+<td class="tregion">Край</td>
+<td>Хабаровский</td>
+<td>Советская Гавань</td>
+<td class = "pop">
+27712
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391430</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Сасово</td>
+<td class = "pop">
+28117
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">446450</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Похвистнево</td>
+<td class = "pop">
+28181
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663081</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Дивногорск</td>
+<td class = "pop">
+28271
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301720</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Кимовск</td>
+<td class = "pop">
+28493
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658125</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Алейск</td>
+<td class = "pop">
+28528
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298500</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Алушта</td>
+<td class = "pop">
+28642
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">632860</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Карасук</td>
+<td class = "pop">
+28929
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624930</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Карпинск</td>
+<td class = "pop">
+29118
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">457353</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Карталы</td>
+<td class = "pop">
+29136
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624480</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Североуральск</td>
+<td class = "pop">
+29279
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143530</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Дедовск</td>
+<td class = "pop">
+29280
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">416540</div></td>
+<td class="tregion">Обл</td>
+<td>Астраханская</td>
+<td>Знаменск</td>
+<td class = "pop">
+29357
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">296000</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Красноперекопск</td>
+<td class = "pop">
+29564
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216400</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Десногорск</td>
+<td class = "pop">
+29677
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140500</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Луховицы</td>
+<td class = "pop">
+29849
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601010</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Киржач</td>
+<td class = "pop">
+30044
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">461900</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Сорочинск</td>
+<td class = "pop">
+30136
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456580</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Еманжелинск</td>
+<td class = "pop">
+30218
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">164170</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Мирный</td>
+<td class = "pop">
+30259
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658820</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Славгород</td>
+<td class = "pop">
+30370
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391800</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Скопин</td>
+<td class = "pop">
+30374
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456800</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Верхний Уфалей</td>
+<td class = "pop">
+30504
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368670</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Дагестанские Огни</td>
+<td class = "pop">
+30671
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606500</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Городец</td>
+<td class = "pop">
+30699
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">619000</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Кудымкар</td>
+<td class = "pop">
+30711
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694620</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Холмск</td>
+<td class = "pop">
+30936
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171841</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Удомля</td>
+<td class = "pop">
+31048
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412540</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Петровск</td>
+<td class = "pop">
+31158
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142670</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Ликино-Дулево</td>
+<td class = "pop">
+31331
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143200</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Можайск</td>
+<td class = "pop">
+31388
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">413075</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Маркс</td>
+<td class = "pop">
+31535
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162390</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Великий Устюг</td>
+<td class = "pop">
+31664
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">215010</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Гагарин</td>
+<td class = "pop">
+31721
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623530</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Богданович</td>
+<td class = "pop">
+31752
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">393190</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Котовск</td>
+<td class = "pop">
+31851
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301830</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Богородицк</td>
+<td class = "pop">
+31897
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456015</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Аша</td>
+<td class = "pop">
+31916
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423040</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Нурлат</td>
+<td class = "pop">
+32600
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">396070</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Нововоронеж</td>
+<td class = "pop">
+32635
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356420</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Благодарный</td>
+<td class = "pop">
+32736
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140700</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Шатура</td>
+<td class = "pop">
+32836
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623780</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Артемовский</td>
+<td class = "pop">
+32878
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624300</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Кушва</td>
+<td class = "pop">
+33027
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662500</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Сосновоборск</td>
+<td class = "pop">
+33090
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617830</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Чернушка</td>
+<td class = "pop">
+33275
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629601</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Муравленко</td>
+<td class = "pop">
+33401
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429120</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Шумерля</td>
+<td class = "pop">
+33412
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">391300</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Касимов</td>
+<td class = "pop">
+33494
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">694020</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Корсаков</td>
+<td class = "pop">
+33526
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456080</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Трехгорный</td>
+<td class = "pop">
+33678
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397837</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Острогожск</td>
+<td class = "pop">
+33842
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">628260</div></td>
+<td class="tregion">Ао</td>
+<td>Ханты-Мансийский Автономный округ - Югра</td>
+<td>Югорск</td>
+<td class = "pop">
+34066
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">446430</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Кинель</td>
+<td class = "pop">
+34472
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624800</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Сухой Лог</td>
+<td class = "pop">
+34836
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423330</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Азнакаево</td>
+<td class = "pop">
+34859
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143500</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Истра</td>
+<td class = "pop">
+35106
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442890</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Сердобск</td>
+<td class = "pop">
+35393
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623950</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Тавда</td>
+<td class = "pop">
+35421
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676280</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Тында</td>
+<td class = "pop">
+35574
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">296100</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Джанкой</td>
+<td class = "pop">
+35700
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618730</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Добрянка</td>
+<td class = "pop">
+35720
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357910</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Зеленокумск</td>
+<td class = "pop">
+35790
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143090</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Краснознаменск</td>
+<td class = "pop">
+36057
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368120</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Кизилюрт</td>
+<td class = "pop">
+36187
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346130</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Миллерово</td>
+<td class = "pop">
+36493
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">627010</div></td>
+<td class="tregion">Обл</td>
+<td>Тюменская</td>
+<td>Ялуторовск</td>
+<td class = "pop">
+36494
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">363020</div></td>
+<td class="tregion">Респ</td>
+<td>Северная Осетия - Алания</td>
+<td>Беслан</td>
+<td class = "pop">
+36724
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692031</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Лесозаводск</td>
+<td class = "pop">
+36975
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678170</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Мирный</td>
+<td class = "pop">
+37179
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142280</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Протвино</td>
+<td class = "pop">
+37308
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692437</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Дальнегорск</td>
+<td class = "pop">
+37503
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">457040</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Южноуральск</td>
+<td class = "pop">
+37890
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624600</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Алапаевск</td>
+<td class = "pop">
+38198
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429820</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Алатырь</td>
+<td class = "pop">
+38202
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">462631</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Гай</td>
+<td class = "pop">
+38302
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623850</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Ирбит</td>
+<td class = "pop">
+38352
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162129</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Сокол</td>
+<td class = "pop">
+38454
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356530</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Светлоград</td>
+<td class = "pop">
+38520
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662310</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Шарыпово</td>
+<td class = "pop">
+38570
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692851</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Партизанск</td>
+<td class = "pop">
+38648
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623750</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Реж</td>
+<td class = "pop">
+38709
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">363750</div></td>
+<td class="tregion">Респ</td>
+<td>Северная Осетия - Алания</td>
+<td>Моздок</td>
+<td class = "pop">
+38748
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456550</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Коркино</td>
+<td class = "pop">
+38950
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456870</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Кыштым</td>
+<td class = "pop">
+38950
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692801</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Большой Камень</td>
+<td class = "pop">
+39257
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">628280</div></td>
+<td class="tregion">Ао</td>
+<td>Ханты-Мансийский Автономный округ - Югра</td>
+<td>Урай</td>
+<td class = "pop">
+39435
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403530</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Фролово</td>
+<td class = "pop">
+39489
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442240</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Каменка</td>
+<td class = "pop">
+39579
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">165650</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Коряжма</td>
+<td class = "pop">
+39629
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606520</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Заволжье</td>
+<td class = "pop">
+40265
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356140</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Изобильный</td>
+<td class = "pop">
+40546
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">164900</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Новодвинск</td>
+<td class = "pop">
+40612
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346350</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Красный Сулин</td>
+<td class = "pop">
+40866
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601440</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Вязники</td>
+<td class = "pop">
+41252
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412030</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Ртищево</td>
+<td class = "pop">
+41295
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171250</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Конаково</td>
+<td class = "pop">
+41303
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">393950</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Моршанск</td>
+<td class = "pop">
+41550
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403110</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Урюпинск</td>
+<td class = "pop">
+41594
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">413720</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Пугачев</td>
+<td class = "pop">
+41705
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658700</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Камень-на-Оби</td>
+<td class = "pop">
+41787
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423520</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Заинск</td>
+<td class = "pop">
+41798
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142900</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Кашира</td>
+<td class = "pop">
+41880
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">416500</div></td>
+<td class="tregion">Обл</td>
+<td>Астраханская</td>
+<td>Ахтубинск</td>
+<td class = "pop">
+41898
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346720</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Аксай</td>
+<td class = "pop">
+41984
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">636780</div></td>
+<td class="tregion">Обл</td>
+<td>Томская</td>
+<td>Стрежевой</td>
+<td class = "pop">
+42216
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301840</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Ефремов</td>
+<td class = "pop">
+42350
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629000</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Салехард</td>
+<td class = "pop">
+42494
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624350</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Качканар</td>
+<td class = "pop">
+42563
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">682640</div></td>
+<td class="tregion">Край</td>
+<td>Хабаровский</td>
+<td>Амурск</td>
+<td class = "pop">
+42977
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">303030</div></td>
+<td class="tregion">Обл</td>
+<td>Орловская</td>
+<td>Мценск</td>
+<td class = "pop">
+43216
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">352330</div></td>
+<td class="tregion">Край</td>
+<td>Краснодарский</td>
+<td>Усть-Лабинск</td>
+<td class = "pop">
+43268
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456439</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Чебаркуль</td>
+<td class = "pop">
+43405
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347040</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Белая Калитва</td>
+<td class = "pop">
+43688
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692230</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Спасск-Дальний</td>
+<td class = "pop">
+44166
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456913</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Сатка</td>
+<td class = "pop">
+45465
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">392000</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Рассказово</td>
+<td class = "pop">
+45484
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429330</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Канаш</td>
+<td class = "pop">
+45608
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">366200</div></td>
+<td class="tregion">Респ</td>
+<td>Чеченская</td>
+<td>Гудермес</td>
+<td class = "pop">
+45643
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601780</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Кольчугино</td>
+<td class = "pop">
+45804
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">215500</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Сафоново</td>
+<td class = "pop">
+46116
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624760</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Верхняя Салда</td>
+<td class = "pop">
+46240
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629733</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Надым</td>
+<td class = "pop">
+46550
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618200</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Чусовой</td>
+<td class = "pop">
+46740
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">659100</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Заринск</td>
+<td class = "pop">
+47035
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140090</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Дзержинский</td>
+<td class = "pop">
+47125
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">632380</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Куйбышев</td>
+<td class = "pop">
+47278
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">431440</div></td>
+<td class="tregion">Респ</td>
+<td>Мордовия</td>
+<td>Рузаевка</td>
+<td class = "pop">
+47529
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172000</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Торжок</td>
+<td class = "pop">
+47702
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">446300</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Отрадный</td>
+<td class = "pop">
+47709
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">366300</div></td>
+<td class="tregion">Респ</td>
+<td>Чеченская</td>
+<td>Шали</td>
+<td class = "pop">
+47715
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">215800</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Ярцево</td>
+<td class = "pop">
+47853
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">427770</div></td>
+<td class="tregion">Респ</td>
+<td>Удмуртская</td>
+<td>Можга</td>
+<td class = "pop">
+47959
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456770</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Снежинск</td>
+<td class = "pop">
+48896
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">366500</div></td>
+<td class="tregion">Респ</td>
+<td>Чеченская</td>
+<td></td>
+<td class = "pop">
+49071
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368830</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Кизляр</td>
+<td class = "pop">
+49169
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171500</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Кимры</td>
+<td class = "pop">
+49623
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">655602</div></td>
+<td class="tregion">Респ</td>
+<td>Хакасия</td>
+<td>Саяногорск</td>
+<td class = "pop">
+49889
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">184601</div></td>
+<td class="tregion">Обл</td>
+<td>Мурманская</td>
+<td>Североморск</td>
+<td class = "pop">
+50076
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346330</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Донецк</td>
+<td class = "pop">
+50085
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">303850</div></td>
+<td class="tregion">Обл</td>
+<td>Орловская</td>
+<td>Ливны</td>
+<td class = "pop">
+50430
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606407</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Балахна</td>
+<td class = "pop">
+51526
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623700</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Березовский</td>
+<td class = "pop">
+51583
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">461630</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Бугуруслан</td>
+<td class = "pop">
+52249
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">171150</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Вышний Волочек</td>
+<td class = "pop">
+52326
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624200</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Лесной</td>
+<td class = "pop">
+52464
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617060</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Краснокамск</td>
+<td class = "pop">
+52632
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662200</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Назарово</td>
+<td class = "pop">
+52829
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141501</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Солнечногорск</td>
+<td class = "pop">
+52996
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">216500</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Рославль</td>
+<td class = "pop">
+54898
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140080</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Лыткарино</td>
+<td class = "pop">
+55147
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301600</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Узловая</td>
+<td class = "pop">
+55282
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141190</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Фрязино</td>
+<td class = "pop">
+55449
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397900</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Лиски</td>
+<td class = "pop">
+55864
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">607060</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Выкса</td>
+<td class = "pop">
+56196
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368500</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Избербаш</td>
+<td class = "pop">
+56301
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692330</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Арсеньев</td>
+<td class = "pop">
+56742
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142700</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Видное</td>
+<td class = "pop">
+56798
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">215110</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Вязьма</td>
+<td class = "pop">
+57103
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">445350</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Жигулевск</td>
+<td class = "pop">
+57565
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301240</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Щекино</td>
+<td class = "pop">
+58154
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676450</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Свободный</td>
+<td class = "pop">
+58594
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141280</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Ивантеевка</td>
+<td class = "pop">
+58594
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624090</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Верхняя Пышма</td>
+<td class = "pop">
+58707
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403340</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Михайловка</td>
+<td class = "pop">
+59153
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624440</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Краснотурьинск</td>
+<td class = "pop">
+59701
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">165300</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Котлас</td>
+<td class = "pop">
+60562
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142300</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Чехов</td>
+<td class = "pop">
+60677
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422951</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Чистополь</td>
+<td class = "pop">
+60703
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601500</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Гусь-Хрустальный</td>
+<td class = "pop">
+60773
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662541</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Лесосибирск</td>
+<td class = "pop">
+61146
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347630</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Сальск</td>
+<td class = "pop">
+61312
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141800</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Дмитров</td>
+<td class = "pop">
+61454
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601650</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Александров</td>
+<td class = "pop">
+61544
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623280</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Ревда</td>
+<td class = "pop">
+61713
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301352</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Алексин</td>
+<td class = "pop">
+61738
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">678960</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Нерюнгри</td>
+<td class = "pop">
+61746
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">172380</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Ржев</td>
+<td class = "pop">
+62026
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">649000</div></td>
+<td class="tregion">Респ</td>
+<td>Алтай</td>
+<td>Горно-Алтайск</td>
+<td class = "pop">
+62861
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">396650</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Россошь</td>
+<td class = "pop">
+62865
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442960</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Заречный</td>
+<td class = "pop">
+63579
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142500</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Павловский Посад</td>
+<td class = "pop">
+63771
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423250</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Лениногорск</td>
+<td class = "pop">
+64145
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623382</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Полевской</td>
+<td class = "pop">
+64316
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301760</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Донской</td>
+<td class = "pop">
+64561
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356800</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Буденновск</td>
+<td class = "pop">
+64628
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143300</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Наро-Фоминск</td>
+<td class = "pop">
+64640
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">397160</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Борисоглебск</td>
+<td class = "pop">
+65585
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368220</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Буйнакск</td>
+<td class = "pop">
+65735
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663690</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Зеленогорск</td>
+<td class = "pop">
+66018
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412900</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Вольск</td>
+<td class = "pop">
+66520
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142800</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Ступино</td>
+<td class = "pop">
+66942
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347870</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Гуково</td>
+<td class = "pop">
+67268
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618900</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Лысьва</td>
+<td class = "pop">
+67712
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617470</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Кунгур</td>
+<td class = "pop">
+67857
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">676805</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Белогорск</td>
+<td class = "pop">
+68220
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">627705</div></td>
+<td class="tregion">Обл</td>
+<td>Тюменская</td>
+<td>Ишим</td>
+<td class = "pop">
+69567
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298100</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Феодосия</td>
+<td class = "pop">
+69786
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624260</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Асбест</td>
+<td class = "pop">
+70067
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140300</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Егорьевск</td>
+<td class = "pop">
+70133
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141980</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Дубна</td>
+<td class = "pop">
+70569
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423600</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Елабуга</td>
+<td class = "pop">
+70750
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">356240</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Михайловск</td>
+<td class = "pop">
+71018
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662600</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Минусинск</td>
+<td class = "pop">
+71171
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">655151</div></td>
+<td class="tregion">Респ</td>
+<td>Хакасия</td>
+<td>Черногорск</td>
+<td class = "pop">
+72117
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357820</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Георгиевск</td>
+<td class = "pop">
+72126
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">446100</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Чапаевск</td>
+<td class = "pop">
+72689
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658041</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Новоалтайск</td>
+<td class = "pop">
+73134
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141055</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Лобня</td>
+<td class = "pop">
+74350
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357200</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Минеральные Воды</td>
+<td class = "pop">
+76715
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298600</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Ялта</td>
+<td class = "pop">
+78040
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606440</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Бор</td>
+<td class = "pop">
+78079
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">457100</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Троицк</td>
+<td class = "pop">
+78637
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">628000</div></td>
+<td class="tregion">Ао</td>
+<td>Ханты-Мансийский Автономный округ - Югра</td>
+<td>Ханты-Мансийск</td>
+<td class = "pop">
+79410
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623300</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Красноуфимск</td>
+<td class = "pop">
+80457
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141601</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Клин</td>
+<td class = "pop">
+80584
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">412300</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Балашов</td>
+<td class = "pop">
+82222
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456780</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Озерск</td>
+<td class = "pop">
+82268
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">461040</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Бузулук</td>
+<td class = "pop">
+82816
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346780</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Азов</td>
+<td class = "pop">
+82882
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">617760</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Чайковский</td>
+<td class = "pop">
+82933
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662970</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Железногорск</td>
+<td class = "pop">
+85559
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143960</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Реутов</td>
+<td class = "pop">
+87195
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">442530</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Кузнецк</td>
+<td class = "pop">
+88886
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423230</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Бугульма</td>
+<td class = "pop">
+89144
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141700</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Долгопрудный</td>
+<td class = "pop">
+90976
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140200</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Воскресенск</td>
+<td class = "pop">
+91301
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624130</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Новоуральск</td>
+<td class = "pop">
+91813
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663600</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Канск</td>
+<td class = "pop">
+94230
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347800</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Каменск-Шахтинский</td>
+<td class = "pop">
+95306
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">427620</div></td>
+<td class="tregion">Респ</td>
+<td>Удмуртская</td>
+<td>Глазов</td>
+<td class = "pop">
+95835
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">102321</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Домодедово</td>
+<td class = "pop">
+96123
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140100</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Раменское</td>
+<td class = "pop">
+96355
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618541</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Соликамск</td>
+<td class = "pop">
+97239
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">422521</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Зеленодольск</td>
+<td class = "pop">
+97651
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">462351</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Новотроицк</td>
+<td class = "pop">
+97914
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">393760</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Мичуринск</td>
+<td class = "pop">
+98758
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">182100</div></td>
+<td class="tregion">Обл</td>
+<td>Псковская</td>
+<td>Великие Луки</td>
+<td class = "pop">
+98778
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">624980</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Серов</td>
+<td class = "pop">
+99381
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">626109</div></td>
+<td class="tregion">Обл</td>
+<td>Тюменская</td>
+<td>Тобольск</td>
+<td class = "pop">
+99698
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142400</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Ногинск</td>
+<td class = "pop">
+99762
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">427430</div></td>
+<td class="tregion">Респ</td>
+<td>Удмуртская</td>
+<td>Воткинск</td>
+<td class = "pop">
+100034
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357600</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Ессентуки</td>
+<td class = "pop">
+100969
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">427960</div></td>
+<td class="tregion">Респ</td>
+<td>Удмуртская</td>
+<td>Сарапул</td>
+<td class = "pop">
+101390
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692486</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Артем</td>
+<td class = "pop">
+102636
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140180</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Жуковский</td>
+<td class = "pop">
+102729
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141200</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Пушкино</td>
+<td class = "pop">
+102840
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368300</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Каспийск</td>
+<td class = "pop">
+103914
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629300</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Новый Уренгой</td>
+<td class = "pop">
+104144
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">607220</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Арзамас</td>
+<td class = "pop">
+106367
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">297402</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Евпатория</td>
+<td class = "pop">
+106840
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">446200</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Новокуйбышевск</td>
+<td class = "pop">
+108449
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">636000</div></td>
+<td class="tregion">Обл</td>
+<td>Томская</td>
+<td>Северск</td>
+<td class = "pop">
+108466
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">662150</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Ачинск</td>
+<td class = "pop">
+109156
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">667000</div></td>
+<td class="tregion">Респ</td>
+<td>Тыва</td>
+<td>Кызыл</td>
+<td class = "pop">
+109906
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141100</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Щелково</td>
+<td class = "pop">
+110380
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">629800</div></td>
+<td class="tregion">Ао</td>
+<td>Ямало-Ненецкий</td>
+<td>Ноябрьск</td>
+<td class = "pop">
+110572
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141300</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Сергиев Посад</td>
+<td class = "pop">
+110878
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346900</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Новошахтинск</td>
+<td class = "pop">
+111087
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346880</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Батайск</td>
+<td class = "pop">
+112400
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">602205</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Муром</td>
+<td class = "pop">
+116078
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143401</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Красногорск</td>
+<td class = "pop">
+116738
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357100</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Невинномысск</td>
+<td class = "pop">
+118351
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">403870</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Камышин</td>
+<td class = "pop">
+119924
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368000</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Дербент</td>
+<td class = "pop">
+119961
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142600</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Орехово-Зуево</td>
+<td class = "pop">
+120620
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">433500</div></td>
+<td class="tregion">Обл</td>
+<td>Ульяновская</td>
+<td>Димитровград</td>
+<td class = "pop">
+122549
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">429950</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Новочебоксарск</td>
+<td class = "pop">
+124094
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142200</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Серпухов</td>
+<td class = "pop">
+126496
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357700</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Кисловодск</td>
+<td class = "pop">
+128502
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">301650</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Новомосковск</td>
+<td class = "pop">
+131227
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">368000</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Хасавюрт</td>
+<td class = "pop">
+133929
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456600</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Копейск</td>
+<td class = "pop">
+137604
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143000</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Одинцово</td>
+<td class = "pop">
+139021
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">357500</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Пятигорск</td>
+<td class = "pop">
+142397
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">385000</div></td>
+<td class="tregion">Респ</td>
+<td>Адыгея</td>
+<td>Майкоп</td>
+<td class = "pop">
+144055
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">298300</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Керчь</td>
+<td class = "pop">
+144600
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140400</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Коломна</td>
+<td class = "pop">
+144642
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">601900</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Ковров</td>
+<td class = "pop">
+145492
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423403</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Альметьевск</td>
+<td class = "pop">
+146309
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">658200</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Рубцовск</td>
+<td class = "pop">
+146386
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623100</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Первоуральск</td>
+<td class = "pop">
+149800
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456300</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Миасс</td>
+<td class = "pop">
+151812
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">618400</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Березники</td>
+<td class = "pop">
+156350
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692500</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Уссурийск</td>
+<td class = "pop">
+157946
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">692900</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Находка</td>
+<td class = "pop">
+159695
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">655000</div></td>
+<td class="tregion">Респ</td>
+<td>Хакасия</td>
+<td>Абакан</td>
+<td class = "pop">
+165183
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346400</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Новочеркасск</td>
+<td class = "pop">
+169039
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347360</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Волгодонск</td>
+<td class = "pop">
+170621
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">140000</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Люберцы</td>
+<td class = "pop">
+171978
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141000</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Мытищи</td>
+<td class = "pop">
+173341
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">623400</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Каменск-Уральский</td>
+<td class = "pop">
+174710
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">456200</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Златоуст</td>
+<td class = "pop">
+174985
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">663300</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Норильск</td>
+<td class = "pop">
+175301
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">446000</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Сызрань</td>
+<td class = "pop">
+178773
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">693000</div></td>
+<td class="tregion">Обл</td>
+<td>Сахалинская</td>
+<td>Южно-Сахалинск</td>
+<td class = "pop">
+181727
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141070</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Королев</td>
+<td class = "pop">
+183452
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">142100</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Подольск</td>
+<td class = "pop">
+187956
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">164500</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Северодвинск</td>
+<td class = "pop">
+192265
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">413840</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Балаково</td>
+<td class = "pop">
+199576
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">413100</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Энгельс</td>
+<td class = "pop">
+202838
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">659300</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Бийск</td>
+<td class = "pop">
+203826
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">141400</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Химки</td>
+<td class = "pop">
+207125
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">675000</div></td>
+<td class="tregion">Обл</td>
+<td>Амурская</td>
+<td>Благовещенск</td>
+<td class = "pop">
+214397
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">143900</div></td>
+<td class="tregion">Обл</td>
+<td>Московская</td>
+<td>Балашиха</td>
+<td class = "pop">
+215353
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423570</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Нижнекамск</td>
+<td class = "pop">
+234108
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">462400</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Орск</td>
+<td class = "pop">
+238006
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">346500</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Шахты</td>
+<td class = "pop">
+240152
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">606000</div></td>
+<td class="tregion">Обл</td>
+<td>Нижегородская</td>
+<td>Дзержинск</td>
+<td class = "pop">
+240762
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">347900</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Таганрог</td>
+<td class = "pop">
+257692
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">681000</div></td>
+<td class="tregion">Край</td>
+<td>Хабаровский</td>
+<td>Комсомольск-на-Амуре</td>
+<td class = "pop">
+263906
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">677000</div></td>
+<td class="tregion">Респ</td>
+<td>Саха /Якутия/</td>
+<td>Якутск</td>
+<td class = "pop">
+269486
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">364000</div></td>
+<td class="tregion">Респ</td>
+<td>Чеченская</td>
+<td>Грозный</td>
+<td class = "pop">
+271596
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">392000</div></td>
+<td class="tregion">Обл</td>
+<td>Тамбовская</td>
+<td>Тамбов</td>
+<td class = "pop">
+280457
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">430000</div></td>
+<td class="tregion">Респ</td>
+<td>Мордовия</td>
+<td>Саранск</td>
+<td class = "pop">
+297425
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">160000</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Вологда</td>
+<td class = "pop">
+301642
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">628400</div></td>
+<td class="tregion">Ао</td>
+<td>Ханты-Мансийский Автономный округ - Югра</td>
+<td>Сургут</td>
+<td class = "pop">
+306703
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">362000</div></td>
+<td class="tregion">Респ</td>
+<td>Северная Осетия - Алания</td>
+<td>Владикавказ</td>
+<td class = "pop">
+311635
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">162600</div></td>
+<td class="tregion">Обл</td>
+<td>Вологодская</td>
+<td>Череповец</td>
+<td class = "pop">
+312311
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">404100</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Волжский</td>
+<td class = "pop">
+314436
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">302000</div></td>
+<td class="tregion">Обл</td>
+<td>Орловская</td>
+<td>Орёл</td>
+<td class = "pop">
+317854
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">214000</div></td>
+<td class="tregion">Обл</td>
+<td>Смоленская</td>
+<td>Смоленск</td>
+<td class = "pop">
+326863
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">299001</div></td>
+<td class="tregion">Г</td>
+<td>Севастополь</td>
+<td></td>
+<td class = "pop">
+344479
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">600000</div></td>
+<td class="tregion">Обл</td>
+<td>Владимирская</td>
+<td>Владимир</td>
+<td class = "pop">
+348256
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">163000</div></td>
+<td class="tregion">Обл</td>
+<td>Архангельская</td>
+<td>Архангельск</td>
+<td class = "pop">
+348716
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">622000</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Нижний Тагил</td>
+<td class = "pop">
+361883
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">295000</div></td>
+<td class="tregion">Респ</td>
+<td>Крым</td>
+<td>Симферополь</td>
+<td class = "pop">
+362366
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">355000</div></td>
+<td class="tregion">Край</td>
+<td>Ставропольский</td>
+<td>Ставрополь</td>
+<td class = "pop">
+398266
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">170000</div></td>
+<td class="tregion">Обл</td>
+<td>Тверская</td>
+<td>Тверь</td>
+<td class = "pop">
+403726
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">455000</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Магнитогорск</td>
+<td class = "pop">
+408401
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">670000</div></td>
+<td class="tregion">Респ</td>
+<td>Бурятия</td>
+<td>Улан-Удэ</td>
+<td class = "pop">
+431922
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">428000</div></td>
+<td class="tregion">Чувашия</td>
+<td>Чувашская Республика</td>
+<td>Чебоксары</td>
+<td class = "pop">
+447929
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">300000</div></td>
+<td class="tregion">Обл</td>
+<td>Тульская</td>
+<td>Тула</td>
+<td class = "pop">
+501129
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">423800</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Набережные Челны</td>
+<td class = "pop">
+513242
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">440000</div></td>
+<td class="tregion">Обл</td>
+<td>Пензенская</td>
+<td>Пенза</td>
+<td class = "pop">
+519592
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">414000</div></td>
+<td class="tregion">Обл</td>
+<td>Астраханская</td>
+<td>Астрахань</td>
+<td class = "pop">
+520662
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">634000</div></td>
+<td class="tregion">Обл</td>
+<td>Томская</td>
+<td>Томск</td>
+<td class = "pop">
+522940
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">390000</div></td>
+<td class="tregion">Обл</td>
+<td>Рязанская</td>
+<td>Рязань</td>
+<td class = "pop">
+525062
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">460000</div></td>
+<td class="tregion">Обл</td>
+<td>Оренбургская</td>
+<td>Оренбург</td>
+<td class = "pop">
+570329
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">680000</div></td>
+<td class="tregion">Край</td>
+<td>Хабаровский</td>
+<td>Хабаровск</td>
+<td class = "pop">
+577668
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">367000</div></td>
+<td class="tregion">Респ</td>
+<td>Дагестан</td>
+<td>Махачкала</td>
+<td class = "pop">
+577990
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">625000</div></td>
+<td class="tregion">Обл</td>
+<td>Тюменская</td>
+<td>Тюмень</td>
+<td class = "pop">
+581758
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">150000</div></td>
+<td class="tregion">Обл</td>
+<td>Ярославская</td>
+<td>Ярославль</td>
+<td class = "pop">
+591486
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">690000</div></td>
+<td class="tregion">Край</td>
+<td>Приморский</td>
+<td>Владивосток</td>
+<td class = "pop">
+592069
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">432000</div></td>
+<td class="tregion">Обл</td>
+<td>Ульяновская</td>
+<td>Ульяновск</td>
+<td class = "pop">
+613793
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">426000</div></td>
+<td class="tregion">Респ</td>
+<td>Удмуртская</td>
+<td>Ижевск</td>
+<td class = "pop">
+628117
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">656000</div></td>
+<td class="tregion">Край</td>
+<td>Алтайский</td>
+<td>Барнаул</td>
+<td class = "pop">
+635585
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">445000</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Тольятти</td>
+<td class = "pop">
+719484
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">410000</div></td>
+<td class="tregion">Обл</td>
+<td>Саратовская</td>
+<td>Саратов</td>
+<td class = "pop">
+836900
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">394000</div></td>
+<td class="tregion">Обл</td>
+<td>Воронежская</td>
+<td>Воронеж</td>
+<td class = "pop">
+889680
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">660000</div></td>
+<td class="tregion">Край</td>
+<td>Красноярский</td>
+<td>Красноярск</td>
+<td class = "pop">
+973826
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">614000</div></td>
+<td class="tregion">Край</td>
+<td>Пермский</td>
+<td>Пермь</td>
+<td class = "pop">
+1000679
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">400000</div></td>
+<td class="tregion">Обл</td>
+<td>Волгоградская</td>
+<td>Волгоград</td>
+<td class = "pop">
+1021244
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">344000</div></td>
+<td class="tregion">Обл</td>
+<td>Ростовская</td>
+<td>Ростов-на-Дону</td>
+<td class = "pop">
+1091544
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">454000</div></td>
+<td class="tregion">Обл</td>
+<td>Челябинская</td>
+<td>Челябинск</td>
+<td class = "pop">
+1130273
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">644000</div></td>
+<td class="tregion">Обл</td>
+<td>Омская</td>
+<td>Омск</td>
+<td class = "pop">
+1154000
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">443000</div></td>
+<td class="tregion">Обл</td>
+<td>Самарская</td>
+<td>Самара</td>
+<td class = "pop">
+1164900
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">420000</div></td>
+<td class="tregion">Респ</td>
+<td>Татарстан</td>
+<td>Казань</td>
+<td class = "pop">
+1216965
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">620000</div></td>
+<td class="tregion">Обл</td>
+<td>Свердловская</td>
+<td>Екатеринбург</td>
+<td class = "pop">
+1377738
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">630000</div></td>
+<td class="tregion">Обл</td>
+<td>Новосибирская</td>
+<td>Новосибирск</td>
+<td class = "pop">
+1498921
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">190000</div></td>
+<td class="tregion">Г</td>
+<td>Санкт-Петербург</td>
+<td></td>
+<td class = "pop">
+4848742
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+
+
+<td class="index"><div class = "circle">101000</div></td>
+<td class="tregion">Г</td>
+<td>Москва</td>
+<td></td>
+<td class = "pop">
+11514330
+<div class="circlepop"></div></td>
+</tr>
+</tbody>
+
+
+</div>
+</div>
+</table>
+<script>
+window.onload = () => {
+console.log(document.querySelector("#city-select > tbody > tr:nth-child(1) > td:nth-child(2) ").innerHTML);};
+getUniqueValuesFromColumn()
+</script>
+</body></html>

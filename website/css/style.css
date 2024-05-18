@@ -1,0 +1,155 @@
+body{
+    padding: 58px 48px auto 48px;
+    margin:0px 48px;
+    background-color:#A1ABFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    min-width: 1440px;
+    height: auto;
+    color: #000;
+}
+
+
+.main-header{
+    display: inline-block;
+    margin: 0px;
+    padding: 20px;
+}
+
+
+.main-header p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    float: right;
+    margin-left: 16px;
+}
+
+.main-header img{
+    position: relative;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+form{
+    text-align: right;
+    padding: 16px;
+}
+
+
+
+select {
+    position: relative;
+    font-size: 16px;
+    border-radius: 84px;
+    padding : 4px 10px;
+    color: #fff;
+    border: 1px solid #fff;
+    outline: none;
+    background-color: #4E5EE4;
+    appearance: none;
+
+}
+
+.table-filter {
+    position: relative;
+    border-radius: 5px;
+    width:250px;
+    height: auto;
+    top: 5px;
+    left: 5px;
+    color: #E8E8E8;
+    align-items: end;
+    border: 3px solid #A1ABFF;
+
+}
+option{
+    color: #292525;
+    background-color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.container{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.city-info{
+    background-color: #fff;
+    width: 80%;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+
+table{
+    position: relative;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px auto;
+    overflow: hidden;
+
+}
+
+
+
+th{
+    color: #000;
+    text-align: center;
+    font-size: 16px;
+    padding: 8px;
+}
+
+td{
+    color: #000;
+    font-size: 13px;
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    border-bottom: 1px solid #E8E8E8;
+}
+
+.pop{
+    color:#20DF33;
+    font-weight: bold;
+}
+
+
+.circle{
+    border: 1px solid #A1ABFF;
+    border-radius: 24px;
+    width: 90px;
+    height: 18px;
+    position: relative;
+    margin: auto;
+    padding: 2px;
+}
+
+.index{
+    color: #4E5EE4;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.circlepop{
+    position: relative;
+    width: 6px;
+    height: 6px;
+    background-color: #20DF33;
+    border-radius: 5px;
+    right: 5px;
+    bottom: 10px;
+}
+
