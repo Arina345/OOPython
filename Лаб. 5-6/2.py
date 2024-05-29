@@ -10,71 +10,87 @@
 # При сложении двух точек должен возвращаться новый экземпляр класса Segment.
 
 
-from one import Point, Segment
+from one import Segment, BrokenLine
 
 
-def __str__(self):
-    return f"{self.n}({self.x},{self.y})"
+class Point:
+    def __init__(self, name, x, y):
+        self.n = name
+        # -----------------------------------ДОПОЛНИТЕЛЬНО--------------------------------------
+        # 3) Скрыть от пользователя прямой доступ к атрибутам координат точек.
+        self.__x = x
+        self.__y = y
 
+    # -----------------------------------ДОПОЛНИТЕЛЬНО--------------------------------------
+    # Изменение координат реализовать через метод set_coordinate.
+    def set_coordinate(self, coordinate, value):
+        match coordinate:
+            case "x":
+                self.__x = value
+            case "y":
+                self.__y = value
 
-def __eq__(self, other):
-    return self.n == other.n
+    # -----------------------------------ДОПОЛНИТЕЛЬНО--------------------------------------
+    # Получение текущей координаты реализовать через метод get_coordinate
+    def get_coordinate(self, coordinate):
+        match coordinate:
+            case "x":
+                return self.__x
+            case "y":
+                return self.__y
 
+    def __str__(self) -> str:
+        return f"{self.n}({self.__x},{self.__y})"
 
-def __hash__(self):
-    return hash(self.n)
+    def __repr__(self) -> str:
+        return f"{self.n}({self.__x},{self.__y})"
 
+    def __eq__(self, other):
+        return self.n == other.n and self.__x == other.__x and self.__y == other.__y
 
-def __add__(self, other):
-    self.one = self.x + other.x
-    self.two = self.y + other.y
-    return f"{self.n}{other.n} {Segment(self.one, self.two)}"
+    def __hash__(self) -> int:
+        return hash((self.__x, self.__y, self.n))
 
+    def __add__(self, other):
+        if isinstance(self, Point):
+            if isinstance(other, Point):
+                return Segment(self, other)
+            elif isinstance(other, Segment):
+                return BrokenLine([self, other, Point("H", 5, 5), Point("R", 3, 2)])
+            elif isinstance(other, BrokenLine):
+                other.points.append(self)
+                return BrokenLine(other.points)
+            return BrokenLine(self.points + other.points)
 
-# Добавление атрибута к объекту
-Point.__str__ = __str__
-Point.__hash__ = __hash__
-Point.__add__ = __add__
 
 # Экземпляры класса
 A = Point("A", 3, 4)
-B = Point("B", 6, 5)
-# B = Point("A", 3, 4)
+B = Point("B", 6, 8)
+C = Point("C", 6, 5)
 
-points = set(
-    [
-        Point("C", 6, 5),
-        Point("D", 2, 1),
-        Point("E", 5, 7),
-        Point("A", 3, 4),
-        Point("G", 9, 1),
-    ]
-)
-
-print(A)
-# Сравнение двух экземпляров
 print(
-    f"Сравнение двух экземпляров A и B:\nРезультат работы метода __eq__: {A == B}\nhash(A): {hash(A)} hash(B): {hash(B)}\t"
+    "--------------------------------------ПРОВЕРКА-------------------------------------------"
+)
+print(A == C)
+collection = set([A, A, B, C, C])
+print(collection)
+
+
+print("Сложение двух точек и возвращение экземпляра класса Segment", A.n + B.n)
+print(
+    "При сложении с классом Segment должен возвращаться экземпляр класса BrokenLine",
+    A + Segment(B, C),
+)
+
+
+br = Point("D", 8, 12) + BrokenLine([A, B, C])
+
+print(
+    "При сложении с классом BrokenLine, последний должен расширить свой список точек",
+    br.points,
 )
 print()
 
-# Создания коллекции (set) экземпляров длинною не менее 5 шт.
-for p in points:
-    print(
-        f"Сравнение экземпляра А с элементами коллекции (set):\nРезультат работы метода __eq__: {A==p}\nhash(A): {hash(A)} hash(p): {hash(p)}\t\n"
-    )
-print()
-
-segment = A + B
-print(segment)
-
-
-# -----------------------------------ДОПОЛНИТЕЛЬНО--------------------------------------
-# 1) при сложении с классом Segment должен возвращаться экземпляр
-# класса BrokenLine.
-# 2) При сложении с классом BrokenLine, последний должен расширить
-# свой список точек.
-# 3) Скрыть от пользователя прямой доступ к атрибутам координат точек.
-# Изменение координат реализовать через метод set_coordinate.
-# Получение текущей координаты реализовать через метод
-# get_coordinate
+# Изменение координаты
+A.set_coordinate("x", 6)
+print(f"Получение значения координаты x:", A.get_coordinate("x"))

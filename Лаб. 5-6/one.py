@@ -18,10 +18,12 @@ class Point:
 
 class Segment:
     def __init__(self, point_one, point_two):
-        self.one = point_one
-        self.two = point_two
+        self.p1 = point_one
+        self.p2 = point_two
 
 
 class BrokenLine:
     def __init__(self, points):
-        self.list = points
+        self.points = points
+        if len(points) < 3:
+            raise ValueError("Список содержит менее 3-х элементов")
