@@ -45,21 +45,25 @@ def __str__(self) -> str:
 # работы. Экземпляр ломанной линии должен расширять список своих
 # точек за счет точек объектов с которыми он складывается.
 def __add__(self, other):
-    if isinstance(other, (Point, Segment)):
-        if isinstance(other, Point):
-            if self.points[-1].n != other.n:
-                self.points.append(other)
-            return BrokenLine(self.points)
-        elif isinstance(other, Segment) and isinstance(self.points[-1], Point):
-            if self.points[-1].n != other.p1.n + other.p2.n:
-                self.points.append(other)
-            return BrokenLine(self.points)
-        elif isinstance(other, Segment) and not isinstance(self.points[-1], Point):
-            if (self.points[-1].p1.n + self.points[-1].p2.n) != (
-                other.p1.n + other.p2.n
-            ):
-                self.points.append(other)
-            return BrokenLine(self.points)
+    # если складываем с Point
+    if isinstance(other, Point):
+        if self.points[-1].n != other.n:
+            self.points.append(other)
+        return BrokenLine(self.points)
+    elif isinstance(other, Segment) and isinstance(self.points[-1], Point):
+        if self.points[-1].n != other.p1.n + other.p2.n:
+            self.points.append(other)
+        return BrokenLine(self.points)
+    elif isinstance(other, Segment) and not isinstance(self.points[-1], Point):
+        if (self.points[-1].p1.n + self.points[-1].p2.n) != (other.p1.n + other.p2.n):
+            self.points.append(other)
+        return BrokenLine(self.points)
+    # если складываем с BrokenLine
+    elif isinstance(other, BrokenLine):
+        l = [p for p in set(other.points)]
+        for point in reversed(l):
+            self.points.append(point)
+        return BrokenLine(self.points)
     return BrokenLine(self.points + other.points)
 
 
@@ -80,5 +84,9 @@ l = (
     + Point("E", 5, 2)
     + Point("C", 5, 2)
     + Segment(A, D)
+    + BrokenLine([A, A, A, B])
+    + BrokenLine([B, C, C, A, B])
 )
+
+
 print(f"{l}\n{l.get_len()}")
